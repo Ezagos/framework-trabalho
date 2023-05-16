@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #2a4b36;
+    margin: 0;
+    padding: 0;
+  }
+
+.container{
+   display: flex; 
+}
+
+nav {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #547760;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+
+  nav1{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 1000px;
+    left: 0;
+    background: #547760;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+
+
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a{
+  position: relative;
+  color: #a9ceb4;
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-item{
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+
+a:hover{
+  background: #aec2ab;
+}
+
+.content {
+  position: absolute;
+  left: 280px;
+  flex-grow: 1;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.teste{
+  color: #d3fade; 
+}
+
+.mundo{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25%;
+  height: auto;
+  top: 270px;
+}
+
+.oleo{
+  position: absolute;
+  left: 25%;
+}
+
+.div_gas{
+  position: absolute;
+  left: 280px;
+  flex-grow: 1;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  bottom: -700px;
+}
+
+.div_carvao{
+  position: absolute;
+  left: 280px;
+  flex-grow: 1;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  bottom: -1349px;
+}
